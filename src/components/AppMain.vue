@@ -4,11 +4,19 @@
 
 
 export default {
+
+    name:'AppMain',
+    props: {
+        movies: {Array},
+        required: true
+    },
   
   data() {
     return {
+        
 
     }
+
   },
   methods: {
 
@@ -35,7 +43,13 @@ export default {
     </div>
 
     <div class="container-fluid">
-        
+        <div class="row">
+            <div class="col-10">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
     </div>
  </div>
   
