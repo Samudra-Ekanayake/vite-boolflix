@@ -1,0 +1,32 @@
+<script>
+
+
+
+
+export default {
+  
+  data() {
+    return {
+
+    }
+  },
+  methods: {
+
+  },
+
+  mounted() {
+
+  },
+
+}
+
+</script>
+
+<template>
+
+  <AppHeader />
+  
+
+</template>
+
+<style></style>
