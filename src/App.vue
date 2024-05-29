@@ -1,6 +1,9 @@
 <script>
 
 import AppHeader from "./components/AppHeader.vue";
+import AppMain from "./components/AppMain.vue";
+import axios from 'axios'
+
 
 
 export default {
@@ -29,6 +32,7 @@ export default {
 <template>
 
   <AppHeader />
+  <AppMain.vue/>
   
 </template>
 
