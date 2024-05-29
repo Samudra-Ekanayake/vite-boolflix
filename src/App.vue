@@ -9,7 +9,7 @@ import axios from 'axios'
 export default {
 
   components: {
-    AppHeader
+    AppHeader, AppMain,
   },
 
   data() {
@@ -17,7 +17,18 @@ export default {
 
     }
   },
+
   methods: {
+    getMovies() {
+
+      axios.get('url_dell_api')
+        .then(response => {
+
+        })
+        .catch(error => {
+
+        })
+    }
 
   },
 
@@ -32,10 +43,8 @@ export default {
 <template>
 
   <AppHeader />
-  <AppMain.vue/>
-  
+  <AppMain />
+
 </template>
 
-<style>
-
-</style>
+<style></style>
